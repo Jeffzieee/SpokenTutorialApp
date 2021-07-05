@@ -25,6 +25,7 @@ RecyclerView.Adapter<RecycleAdapter.MyViewHolder>(){
 
         holder.itemView.video_title.text = singleVideoItem.videoTitle
         holder.itemView.video_level.text = "Level : " + singleVideoItem.videoLevel
+        var tony : String
 
         Picasso.with(mContext)
                 .load("https://i.ytimg.com/vi/"+singleVideoItem.videoId+"/sddefault.jpg")
