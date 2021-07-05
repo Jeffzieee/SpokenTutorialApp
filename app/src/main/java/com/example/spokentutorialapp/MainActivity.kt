@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 
+//#Tony STARK is the BEST
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val fossSpinner = findViewById<Spinner>(R.id.fossSpinner)
         val lanSpinner = findViewById<Spinner>(R.id.lanSpinner)
         val btnSearch = findViewById<Button>(R.id.btnSeach)
+
 
         var fossVSfossID = HashMap<String, Int>()
         fossVSfossID.put("Java", 10)
