@@ -16,7 +16,7 @@ class PlayActivity : YouTubeBaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_play)
-        var key = "AIzaSyBjfGGONycGEDRfdEQMJVxrGXgv74bnKt8"
+        var key = "Your Youtube Player API HERE"
         var vID = intent.getStringExtra("VIDEO_ID")
         var vTitle = intent.getStringExtra("VIDEO_TITLE")
         ytPlayer = findViewById<YouTubePlayerView>(R.id.youtube_playerview)

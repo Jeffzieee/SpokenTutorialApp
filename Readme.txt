@@ -3,8 +3,9 @@ SpokenTutorialApp is an Android Application that Helps the user to...
 --->Select the Required Tutorial Video
 --->Play the Video using YouTube API
 
-The Code Files are available in the Github Repository             ----> https://github.com/Jeffzieee/SpokenTutorialApp
-The Apk File is available in the Root Directory of the Repository ----> https://github.com/Jeffzieee/SpokenTutorialApp/blob/main/SpokenTutorialApp.apk
+Make SUre to add your Youtube API Key in PlayActivity.kt file, Line 19   ----> https://github.com/Jeffzieee/SpokenTutorialApp/blob/main/app/src/main/java/com/example/spokentutorialapp/PlayActivity.kt
+The Code Files are available in the Github Repository                    ----> https://github.com/Jeffzieee/SpokenTutorialApp
+The Apk File is available in the Root Directory of the Repository        ----> https://github.com/Jeffzieee/SpokenTutorialApp/blob/main/SpokenTutorialApp.apk
 
 HAPPY LEARNING!!!
 
